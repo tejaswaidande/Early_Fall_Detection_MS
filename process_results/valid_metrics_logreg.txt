@@ -1,0 +1,7 @@
+ROC-AUC: 0.648
+Accuracy: 0.892
+F1: 0.130
+Specificity: 0.901
+Sensitivity: 0.429
+Threshold: 0.712
+TP=3, FP=36, TN=327, FN=4

@@ -1,0 +1,7 @@
+AUC: 0.662
+Accuracy: 0.865
+F1: 0.138
+Specificity: 0.871
+Sensitivity: 0.571
+Threshold: 0.712
+TP=4, FP=47, TN=316, FN=3

@@ -1,0 +1,14 @@
+EDSS
+KFSS_BowelBladder
+KFSS_BrainStem
+KFSS_Cerebellar
+KFSS1-Cerebral or Mental Functions
+KFSS_Pyramidal
+KFSS_Sensory
+KFSS1-Visual or Optic Functions
+age
+sex
+race
+has_diabetes
+has_arthritis
+has_hypertension
