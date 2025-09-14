@@ -1,0 +1,19 @@
+Falls are a major cause of injury and reduced quality of life in people with Multiple Sclerosis
+(MS). Traditional clinical assessments often rely on isolated scores or subjective reporting, which
+may overlook the complex interplay of factors that contribute to fall risk. This thesis presents a
+scalable machine learning pipeline designed to predict fall risk in MS patients using real-world
+clinical data.
+The dataset consisted of 2,465 patients, of which only 47 were identified as fallers, creating
+a highly imbalanced prediction problem. To address this, a stratified 70/15/15 split was applied
+to preserve the ratio of fallers and non-fallers across training, validation, and test sets.
+Logistic Regression was used as a transparent baseline, while Histogram Gradient Boosting
+was employed to capture non-linear relationships and feature interactions. Model evaluation
+emphasized clinical metrics specificity and sensitivity over simple accuracy, as accuracy alone
+would be misleading under severe imbalance. Results showed that Logistic Regression achieved
+an AUC of 0.648, with a clinically meaningful threshold of 0.71 yielding 90% specificity while
+retaining sensitivity of 43%. Histogram Gradient Boosting further improved predictive power
+while maintaining interpretability through feature importance measures.
+The findings demonstrate that fall prediction in MS is feasible with structured, tabular data
+and that carefully balancing specificity and sensitivity is essential for clinical trust. Beyond
+predictive accuracy, the thesis highlights the importance of transparency, reproducibility, and
+alignment with clinical priorities when applying machine learning in healthcare.
